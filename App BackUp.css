@@ -1,0 +1,288 @@
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.body {
+  margin: auto;
+  width: 80%;
+}
+
+/* .head_menu {
+
+} */
+
+.logo {
+  padding: 16px;
+  max-width: 200px;
+  /* height: 64px; */
+}
+
+/* ul.logo_text_box {
+  margin: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+
+} */
+
+ul.logo_text_box {
+  margin: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+
+}
+
+ul.logo_text_box li{
+  display: inline;
+  margin-right: 5px;
+}
+
+.logo_text {
+  margin-top: 70px;
+  width: 420px;
+}
+
+.line_head {
+   margin-right: 50px;
+   margin-left: 50px;
+}
+
+.line_menu {
+  /* width: 80%; */
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+@font-face {
+  font-family: 'Sansation Light';
+  src: local('Sansation Light'), url(fonts/Sansation_Light.ttf) format('ttf');
+  /* fonts\Sansation Light.ttf */
+}
+
+.font_h1 {
+  font-family: 'Sansation Light', serif;
+  font-size: 50px;
+}
+
+.font_h2 {
+  margin-top: 0;
+  font-family: 'Sansation Light', serif;
+  font-size: 30px;
+}
+
+.links_img {
+  transition: 1s;
+}
+
+.links_img:hover {
+  transform: scale(1.1);
+  background:rgb(255, 255, 255);
+  opacity:0.6;
+}
+.links_img:active {
+  background:rgb(255, 255, 255);
+  opacity:0.4;
+}
+
+.link_img_vk {
+  width: 64px;
+}
+
+.links_soc {
+  /* padding: 16px; */
+  display: flex;
+  position: right;
+  padding-right: 0px;
+  margin-left: 195px;
+  margin-right: 20px;
+}
+
+ .links_soc.li {
+  /* padding: 16px; */
+  /* margin: 10px; */
+} 
+
+.link_vk {
+  padding-top: 5px;
+  padding-left: 10px;
+  max-width: 80px;
+}
+
+.link_tg {
+  padding-top: 5px;
+  width: 80px;
+}
+
+/* .dev_izi {
+  margin-top: 10px;
+
+  text-align: right;
+  font-family: 'Sansation Light', serif;
+  font-size: 1.56vw;
+  width: 400px;
+} */
+
+.dev_izi {
+  
+  margin-top: 10px;
+
+  text-align: right;
+  font-family: 'Sansation Light', serif;
+  font-size: 32px;
+  width: 400px;
+}
+
+
+/* .right_block {
+  float: right;
+} */
+
+.right_block {
+  
+  padding-left: 23%;
+}
+
+.right_links_and_text {
+  padding:16px;
+  margin-top: 90px;
+  width: 100%;
+}
+
+.link_img_vk {
+  width: 80%;
+}
+.menu_ul {
+  text-align: center;
+  padding-left: 11% ;
+  display: flex;
+}
+.menu_element {
+    display: inline;
+}
+
+.menu_div {
+  /* margin:  auto; */
+  display: block;
+  /* width: 70%; */
+  margin-left:  20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+
+.menu_element_link {
+  font-family: 'Sansation Light', serif;
+  font-style: italic;
+
+  color: #000;
+  font-size: 24px;
+  padding: 15px;
+
+  text-decoration: none;
+  position: relative;
+}
+
+.menu_element_link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: #00468e; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 1s; /* Время эффекта */
+}
+
+.menu_element_link:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #d23f39; /* Цвет подчеркивания при появлении линии*/
+    transition: width 1s;  /* Время эффекта */
+}
+
+.block_down {
+  text-align: center;
+  font-family: 'Sansation Light', serif;
+
+
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px; */
+  color: #000;
+  font-size: 16pt;
+  padding: 14px;
+  /* margin-right: 20%;
+  margin-right: 20%; */
+}
+
+.text_pol {
+  text-decoration: underline;
+}
+
+.text_down {
+  padding: 15px;
+}
+
+.line {
+  border-bottom:2px solid #000;
+}
+
+.line_down1 {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.line_down2 {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+/* .news_field {
+  
+} */

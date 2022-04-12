@@ -1,0 +1,97 @@
+
+/* @font-face {
+  font-family: 'Sansation Light';
+  src: local('Sansation Light'), url(../fonts/Sansation_Light.ttf) format('ttf');
+
+} */
+
+.postCon {
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: block;
+  width: calc(300px + 19vw);
+  min-width: 300px;
+  max-width: 570px;
+  height: auto;
+  
+  padding: 30px;
+  margin: 15px auto;
+  background: rgb(255,255,255);
+
+  border-radius: 20px;
+  color: black;
+  overflow: hidden;
+  /* background-color: #fafafa; */
+}
+
+.postCon:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.8s ease;
+} 
+
+
+.date {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.imgPost {
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 15px;
+  display: block;
+  margin: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  height: 60%;
+  width: 100%;
+  /* max-height: 70%; */
+  object-fit: cover;
+}
+
+.text_box_post_con {
+
+}
+
+.text_post_con {
+  margin: 15px auto 15px;
+  line-height: 30px;
+  width: 90%;
+  height: calc(80px + 11vw);
+  min-height: 80px;
+  max-height: 300px;
+  overflow: hidden;
+
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 84%, rgba(0,0,0,0) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.text_post_element {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+  font-size: 16pt;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .a_post_box {
+
+  text-decoration: none;
+
+}
+
+.a_post_box:hover {
+  text-decoration: none;
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.5s ease;
+} */

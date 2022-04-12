@@ -1,0 +1,52 @@
+.vuz {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+.vuz_links {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.name_vuz:hover {
+    transform: scale(1.2);
+}
+.name_vuz {
+    text-decoration: underline;
+    /* border-bottom:2px solid #000; */
+
+    /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+    text-align: center;
+    font-size: 1.6em;
+    padding: 30px;
+    transition: 1s;
+
+}
+
+
+.img_vuz {
+    margin-left: 0%;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.about_vuz {
+    /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+    font-size: 1.3em;
+    line-height:24px;
+}
+
+.about_vuz_element {
+    
+}
+
+.under_line {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom:2px solid #000;
+}

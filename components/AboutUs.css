@@ -1,0 +1,88 @@
+.font_text {
+    /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+
+}
+
+.link_text {
+    /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sansation Light', serif;
+    font-size: 20pt;
+    text-align: center;
+    
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.link_div:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+.link_div {
+    letter-spacing: .1em;
+    transition: text-shadow .1s;
+    transition: 1s;
+    text-align: center;
+    padding: 40px
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+.name:hover {
+    transform: scale(1.1);
+}
+.name_link {
+    text-decoration: none;
+    color: black;
+    
+}
+.role {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.text_about {
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 17pt;
+    text-indent: 100px;
+}
+
+.text_head {
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+
+}
+
+
+.person {
+    padding: 30px;
+}
+
+.devCon {
+    font-size: 20pt;
+
+}
+.photo {
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    
+    object-fit: cover;
+    width: 333px;
+    height: 500px;
+}

@@ -1,0 +1,10 @@
+.posts_box {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    width: 95%;
+    margin: 0 auto;
+}
